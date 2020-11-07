@@ -1,0 +1,74 @@
+@import 'color';
+@import 'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap';
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: $platinum;
+  &:focus{
+    outline: 0;
+  }
+}
+.navbar{
+  width: 100vw;
+  background-color: $eerie-black;
+  .navbar-line{
+    margin: 0;
+    padding: 0;
+    height: 0.25rem;
+    background-color: $red-munsell;
+  }
+  .navbar-nav{
+    height: 3.25rem;
+    display: flex;
+    justify-content: center;
+    .nav-item{
+      width: 15rem;
+      height: 3.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .nav-logo{
+      min-width: 17.5rem;
+      height: 3.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: $eerie-black;
+      border: 0.20rem white solid;
+      border-bottom: none;
+      border-radius: 0.25rem;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-top: 0.75rem;
+      font-family: 'Noto Sans KR', sans-serif;
+      .nav-logo-line{
+        position: absolute;
+        width: 17.1rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.3rem;
+        background-color: $red-munsell;
+      }
+    }
+  }
+}
+.main-text{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size:7.5rem;
+  text-align: center;
+  color: $eerie-black;
+}

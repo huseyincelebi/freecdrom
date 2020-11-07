@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <hr class="navbar-line">
+        <ul class="navbar-nav">
+            <li class="nav-logo">
+                <a>FREECDROM</a>
+                <div class="nav-logo-line" data-addui='typing'>
+                    <a class="nav-logo-line-text"></a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <a class="main-text">We're starting very soon.</a>
+    <script>
+        var typed = new Typed('.nav-logo-line-text',{
+            strings: [
+                ".com",
+            ],
+            typeSpeed: 150,
+            showCursor: false
+        });
+    </script>
+</body>
+</html>

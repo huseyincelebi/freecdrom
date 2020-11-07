@@ -1,0 +1,73 @@
+/* SCSS HSL */
+/* SCSS HSL */
+/* SCSS HSL */
+/* SCSS HSL */
+/* SCSS HSL */
+@import "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #e9eaec; }
+  *:focus {
+    outline: 0; }
+
+.navbar {
+  width: 100vw;
+  background-color: #252422; }
+  .navbar .navbar-line {
+    margin: 0;
+    padding: 0;
+    height: 0.25rem;
+    background-color: #ea3446; }
+  .navbar .navbar-nav {
+    height: 3.25rem;
+    display: flex;
+    justify-content: center; }
+    .navbar .navbar-nav .nav-item {
+      width: 15rem;
+      height: 3.25rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .navbar .navbar-nav .nav-logo {
+      min-width: 17.5rem;
+      height: 3.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #252422;
+      border: 0.20rem white solid;
+      border-bottom: none;
+      border-radius: 0.25rem;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-top: 0.75rem;
+      font-family: 'Noto Sans KR', sans-serif; }
+      .navbar .navbar-nav .nav-logo .nav-logo-line {
+        position: absolute;
+        width: 17.1rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4.3rem;
+        background-color: #ea3446; }
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 7.5rem;
+  text-align: center;
+  color: #252422; }
+
+/*# sourceMappingURL=style.css.map */
